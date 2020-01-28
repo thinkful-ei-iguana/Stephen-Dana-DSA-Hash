@@ -97,7 +97,6 @@ class HashMap {
       }
     }
   }
-
   static _hashString(string) {
     let hash = 5381;
     for (
@@ -115,4 +114,4 @@ class HashMap {
   }
 }
 
-// HashMap.MAX_LOAD_RATIO = 0.5;
+module.exports = HashMap;
